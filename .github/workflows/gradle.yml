@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: bitrise_pool_name:UniquePoolForPongi
+    runs-on: [bitrise_pool_name:UniquePoolForPongi]
     permissions:
       contents: read
 
@@ -50,7 +50,7 @@ jobs:
 
   dependency-submission:
 
-    runs-on: bitrise_pool_name:UniquePoolForPongi
+    runs-on: [bitrise_pool_name:UniquePoolForPongi]
     permissions:
       contents: write
 
