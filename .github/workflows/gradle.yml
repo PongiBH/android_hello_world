@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: bitrise_pool_name:UniquePoolForPongi
+    runs-on: self-hosted
     permissions:
       contents: read
 
