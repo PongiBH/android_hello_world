@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: bitrise
+    runs-on: bitrise-runner-UniquePoolForPongi
     permissions:
       contents: read
 
