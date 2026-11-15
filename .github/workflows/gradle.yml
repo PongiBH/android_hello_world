@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: bitrise-runner-pool-vivi-inci-11-13
+    runs-on: bitrise-runner-pongi-test
 
     permissions:
       contents: read
